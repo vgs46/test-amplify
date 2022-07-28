@@ -1,0 +1,4 @@
+type EmailCollection @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email_id: String
+}
